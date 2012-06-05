@@ -1,0 +1,1400 @@
+±¨´íÄÚÈÝ
+
+World of WarCraft: Beta Build (build 15739)
+
+Exe:      E:\ptr\World of Warcraft Beta\WoW.exe
+Time:     Jun  5, 2012  5:17:16.751 PM
+User:     Administrator
+Computer: SUSNOW
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+ERROR #131 (0x85100083) The file data is corrupt.
+
+Program:	E:\ptr\World of Warcraft Beta\WoW.exe
+ProcessID:	2980
+File:	world\generic\human\passive doodads\meat\bloodymeat02.m2
+
+7950EF7D8B609C99722FD00C587295C8 2032 1
+Data\alternate.MPQ#alternate\
+
+
+
+WoWBuild: 15739
+Version: 5.0.1
+Type:  WoWB
+Platform: X86
+
+Patch data download failed.
+Error downloading patch data from server 'http://streaming.corp.blizzard.net/patchlist/ldap.php' , error code : nameResolveError
+Manifest is valid.
+
+
+Settings: 
+SET readTOS "1"
+SET portal "cn-test"
+SET readEULA "1"
+SET readScanning "-1"
+SET readContest "-1"
+SET locale "enCN"
+SET playIntroMovie "4"
+SET showToolsUI "1"
+SET accounttype "MP"
+SET readTerminationWithoutNotice "-1"
+SET serverAlert "SERVER_ALERT_URL"
+SET installType "Retail"
+SET Sound_EnableHardware "1"
+SET hwDetect "0"
+SET videoOptionsVersion "4"
+SET gxApi "D3D11"
+SET gxWindow "1"
+SET gxMaximize "1"
+SET graphicsQuality "4"
+SET Gamma "1.000000"
+SET Sound_MusicVolume "0.40000000596046"
+SET Sound_AmbienceVolume "0.60000002384186"
+SET farclip "1100"
+SET particleDensity "80"
+SET waterDetail "2"
+SET rippleDetail "1"
+SET reflectionMode "0"
+SET sunShafts "2"
+SET groundEffectDensity "96"
+SET groundEffectDist "200"
+SET environmentDetail "125"
+SET projectedTextures "1"
+SET shadowMode "2"
+SET shadowTextureSize "2048"
+SET SSAO "1"
+SET SSAOBlur "1"
+SET textureFilteringMode "4"
+SET terrainLodDist "550"
+SET wmoLodDist "550"
+SET componentTextureLevel "0"
+SET realmName "ç¥žçœŸå­?
+
+----------------------------------------
+               GxInfo
+----------------------------------------
+GxApi: D3D11
+Shader Model: 4_0
+  Vertex: vs_4_0
+  Geometry: gs_4_0
+  Pixel: ps_4_0
+  Compute: cs_4_0
+
+------------------------------------------------------------------------------
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+Showing 58/58 threads...
+
+--- Thread ID: 4608 ---
+75C11818 0022F480 0001:00000818 C:\Windows\system32\KERNELBASE.dll
+010D862D 0022F48C 0001:0018762D E:\ptr\World of Warcraft Beta\WoW.exe
+0177D534 0022F4D0 0001:0082C534 E:\ptr\World of Warcraft Beta\WoW.exe
+0177DBA2 0022FBCC 0001:0082CBA2 E:\ptr\World of Warcraft Beta\WoW.exe
+0172BFF2 0022FBE4 0001:007DAFF2 E:\ptr\World of Warcraft Beta\WoW.exe
+017296FE 0022FBF4 0001:007D86FE E:\ptr\World of Warcraft Beta\WoW.exe
+0171067A 0022FC24 0001:007BF67A E:\ptr\World of Warcraft Beta\WoW.exe
+00F57B72 0022FC78 0001:00006B72 E:\ptr\World of Warcraft Beta\WoW.exe
+0126C65F 0022FCB8 0001:0031B65F E:\ptr\World of Warcraft Beta\WoW.exe
+0126EC71 0022FCD8 0001:0031DC71 E:\ptr\World of Warcraft Beta\WoW.exe
+00FD086A 0022FD08 0001:0007F86A E:\ptr\World of Warcraft Beta\WoW.exe
+00FD1039 0022FD24 0001:00080039 E:\ptr\World of Warcraft Beta\WoW.exe
+00FCD2B6 0022FD48 0001:0007C2B6 E:\ptr\World of Warcraft Beta\WoW.exe
+00FCE834 0022FD68 0001:0007D834 E:\ptr\World of Warcraft Beta\WoW.exe
+00FCEFFA 0022FDBC 0001:0007DFFA E:\ptr\World of Warcraft Beta\WoW.exe
+00FCF041 0022FDEC 0001:0007E041 E:\ptr\World of Warcraft Beta\WoW.exe
+00F5B4ED 0022FE80 0001:0000A4ED E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0022FE8C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0022FECC 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0022FEE4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4252 ---
+75436D30 00F2F854 0001:00005D30 C:\Windows\system32\mswsock.dll
+779A6A28 00F2F8D4 0001:00005A28 C:\Windows\system32\WS2_32.dll
+774637C3 00F2FC38 0001:000327C3 C:\Windows\system32\WININET.dll
+774679CB 00F2FC40 0001:000369CB C:\Windows\system32\WININET.dll
+764CED6C 00F2FC4C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 00F2FC8C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 00F2FCA4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3356 ---
+764CED6C 0374F83C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0374F87C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0374F894 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2496 ---
+764CED6C 039FF84C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 039FF88C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 039FF8A4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5568 ---
+764CED6C 03B2FB80 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 03B2FBC0 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 03B2FBD8 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 1128 ---
+764CC2F3 038CFB20 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+71E633B7 038CFB84 0001:000023B7 C:\Windows\system32\rasman.dll
+764CED6C 038CFB90 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 038CFBD0 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 038CFBE8 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3504 ---
+764CED6C 03F4FA58 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 03F4FA98 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 03F4FAB0 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5492 ---
+764CC2F3 041BF954 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 041BF968 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+00FA07CA 041BF9DC 0001:0004F7CA E:\ptr\World of Warcraft Beta\WoW.exe
+00FA525A 041BF9F0 0001:0005425A E:\ptr\World of Warcraft Beta\WoW.exe
+017D7040 041BFA28 0001:00886040 E:\ptr\World of Warcraft Beta\WoW.exe
+017D70CA 041BFA34 0001:008860CA E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 041BFA40 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 041BFA80 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 041BFA98 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4264 ---
+764CED6C 0407F98C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0407F9CC 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0407F9E4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4624 ---
+764CC2F3 0489FD6C 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0489FD80 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+00FA4E11 0489FDD0 0001:00053E11 E:\ptr\World of Warcraft Beta\WoW.exe
+00FA525A 0489FDE4 0001:0005425A E:\ptr\World of Warcraft Beta\WoW.exe
+017D7040 0489FE1C 0001:00886040 E:\ptr\World of Warcraft Beta\WoW.exe
+017D70CA 0489FE28 0001:008860CA E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0489FE34 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0489FE74 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0489FE8C 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3724 ---
+764CC2F3 0499FC18 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0499FC2C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+00FA07CA 0499FCA0 0001:0004F7CA E:\ptr\World of Warcraft Beta\WoW.exe
+00FA525A 0499FCB4 0001:0005425A E:\ptr\World of Warcraft Beta\WoW.exe
+017D7040 0499FCEC 0001:00886040 E:\ptr\World of Warcraft Beta\WoW.exe
+017D70CA 0499FCF8 0001:008860CA E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0499FD04 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0499FD44 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0499FD5C 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4568 ---
+764CC2F3 050AF854 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 050AF868 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+00F7C195 050AF880 0001:0002B195 E:\ptr\World of Warcraft Beta\WoW.exe
+00F64D1E 050AF8AC 0001:00013D1E E:\ptr\World of Warcraft Beta\WoW.exe
+00F65F6A 050AFA0C 0001:00014F6A E:\ptr\World of Warcraft Beta\WoW.exe
+00FA525A 050AFA20 0001:0005425A E:\ptr\World of Warcraft Beta\WoW.exe
+017D7040 050AFA58 0001:00886040 E:\ptr\World of Warcraft Beta\WoW.exe
+017D70CA 050AFA64 0001:008860CA E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 050AFA70 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 050AFAB0 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 050AFAC8 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4848 [Current Thread] ---
+00FB9079 06A0EAAC 0001:00068079 E:\ptr\World of Warcraft Beta\WoW.exe
+00F704E2 06A0EAD0 0001:0001F4E2 E:\ptr\World of Warcraft Beta\WoW.exe
+00F7A4E5 06A0EAF8 0001:000294E5 E:\ptr\World of Warcraft Beta\WoW.exe
+00FB9E32 06A0F064 0001:00068E32 E:\ptr\World of Warcraft Beta\WoW.exe
+00F6A7B4 06A0F9A0 0001:000197B4 E:\ptr\World of Warcraft Beta\WoW.exe
+00F6AB1B 06A0F9B8 0001:00019B1B E:\ptr\World of Warcraft Beta\WoW.exe
+01116352 06A0F9E8 0001:001C5352 E:\ptr\World of Warcraft Beta\WoW.exe
+01116B26 06A0F9FC 0001:001C5B26 E:\ptr\World of Warcraft Beta\WoW.exe
+011E6A98 06A0FA24 0001:00295A98 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 06A0FA30 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 06A0FA70 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 06A0FA88 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3068 ---
+764CC2F3 06B0FF24 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 06B0FF38 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+011E8DA0 06B0FF48 0001:00297DA0 E:\ptr\World of Warcraft Beta\WoW.exe
+01116D2A 06B0FF60 0001:001C5D2A E:\ptr\World of Warcraft Beta\WoW.exe
+011E6A98 06B0FF88 0001:00295A98 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 06B0FF94 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 06B0FFD4 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 06B0FFEC 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2516 ---
+764CC2F3 083DFD18 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 083DFD2C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F66E05B 083DFD60 0001:000DD05B C:\Windows\system32\nvwgf2um.dll
+6F7D7958 083DFD6C 0001:00246958 C:\Windows\system32\nvwgf2um.dll
+6F80FD05 083DFDA4 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 083DFDB0 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 083DFDBC 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 083DFDFC 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 083DFE14 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4592 ---
+75C11818 03F7FD8C 0001:00000818 C:\Windows\system32\KERNELBASE.dll
+00F8D19A 03F7FDC4 0001:0003C19A E:\ptr\World of Warcraft Beta\WoW.exe
+00FA525A 03F7FDD8 0001:0005425A E:\ptr\World of Warcraft Beta\WoW.exe
+017D7040 03F7FE10 0001:00886040 E:\ptr\World of Warcraft Beta\WoW.exe
+017D70CA 03F7FE1C 0001:008860CA E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 03F7FE28 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 03F7FE68 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 03F7FE80 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5504 ---
+764CC2F3 08BCFCE4 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 08BCFCF8 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+011E8DA0 08BCFD08 0001:00297DA0 E:\ptr\World of Warcraft Beta\WoW.exe
+010A217A 08BCFD20 0001:0015117A E:\ptr\World of Warcraft Beta\WoW.exe
+011E6A98 08BCFD48 0001:00295A98 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 08BCFD54 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 08BCFD94 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 08BCFDAC 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4508 ---
+764CED6C 09FFFA38 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 09FFFA78 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 09FFFA90 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2220 ---
+75C11818 0A29FB28 0001:00000818 C:\Windows\system32\KERNELBASE.dll
+011310CD 0A29FB34 0001:001E00CD E:\ptr\World of Warcraft Beta\WoW.exe
+0113F94C 0A29FB4C 0001:001EE94C E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0A29FB58 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0A29FB98 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0A29FBB0 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4280 ---
+764CC2F3 0B38F774 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0B38F788 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+011E8DA0 0B38F798 0001:00297DA0 E:\ptr\World of Warcraft Beta\WoW.exe
+017ADF75 0B38F7B0 0001:0085CF75 E:\ptr\World of Warcraft Beta\WoW.exe
+017AE1C1 0B38F7BC 0001:0085D1C1 E:\ptr\World of Warcraft Beta\WoW.exe
+011E6A98 0B38F7E4 0001:00295A98 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0B38F7F0 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0B38F830 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0B38F848 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4780 ---
+764CBD1E 0B48FC24 0001:0004AD1E C:\Windows\system32\kernel32.dll
+764CBD8C 0B48FC40 0001:0004AD8C C:\Windows\system32\kernel32.dll
+017AE8DF 0B48FE9C 0001:0085D8DF E:\ptr\World of Warcraft Beta\WoW.exe
+017ADE3E 0B48FEA8 0001:0085CE3E E:\ptr\World of Warcraft Beta\WoW.exe
+011E6A98 0B48FED0 0001:00295A98 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0B48FEDC 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0B48FF1C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0B48FF34 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4632 ---
+764CC2F3 0A13FAB0 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0A13FAC4 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+011E8DA0 0A13FAD4 0001:00297DA0 E:\ptr\World of Warcraft Beta\WoW.exe
+011FFAD8 0A13FB10 0001:002AEAD8 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0A13FB1C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0A13FB5C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0A13FB74 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5320 ---
+764CED6C 0EFBFB90 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0EFBFBD0 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0EFBFBE8 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4192 ---
+764CC2F3 0F27F7CC 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0F27F7E0 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+0113F695 0F27F7FC 0001:001EE695 E:\ptr\World of Warcraft Beta\WoW.exe
+01131269 0F27F80C 0001:001E0269 E:\ptr\World of Warcraft Beta\WoW.exe
+0113F910 0F27F824 0001:001EE910 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0F27F830 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0F27F870 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0F27F888 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4172 ---
+764CC2F3 0F44FE68 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0F44FE7C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+0113F695 0F44FE98 0001:001EE695 E:\ptr\World of Warcraft Beta\WoW.exe
+01131269 0F44FEA8 0001:001E0269 E:\ptr\World of Warcraft Beta\WoW.exe
+0113F910 0F44FEC0 0001:001EE910 E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 0F44FECC 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 0F44FF0C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0F44FF24 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 488 ---
+764CC2F3 1A3DFAC0 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1A3DFAD4 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1A3DFAF4 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1A3DFB2C 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1A3DFB38 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1A3DFB44 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1A3DFB84 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1A3DFB9C 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 6048 ---
+764CC2F3 1A5CFE50 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1A5CFE64 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1A5CFE84 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1A5CFEBC 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1A5CFEC8 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1A5CFED4 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1A5CFF14 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1A5CFF2C 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2464 ---
+764CC2F3 1A6FFE64 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1A6FFE78 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1A6FFE98 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1A6FFED0 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1A6FFEDC 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1A6FFEE8 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1A6FFF28 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1A6FFF40 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4364 ---
+764CC2F3 1A26FC70 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1A26FC84 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1A26FCA4 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1A26FCDC 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1A26FCE8 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1A26FCF4 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1A26FD34 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1A26FD4C 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2236 ---
+764CC2F3 1A92FAAC 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1A92FAC0 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1A92FAE0 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1A92FB18 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1A92FB24 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1A92FB30 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1A92FB70 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1A92FB88 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 1636 ---
+764CC2F3 1A7FFBAC 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1A7FFBC0 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1A7FFBE0 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1A7FFC18 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1A7FFC24 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1A7FFC30 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1A7FFC70 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1A7FFC88 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5308 ---
+764CC2F3 1ABEFDBC 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1ABEFDD0 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1ABEFDF0 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1ABEFE28 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1ABEFE34 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1ABEFE40 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1ABEFE80 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1ABEFE98 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4804 ---
+764CC2F3 1ADFF7C4 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1ADFF7D8 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1ADFF7F8 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1ADFF830 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1ADFF83C 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1ADFF848 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1ADFF888 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1ADFF8A0 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5272 ---
+764CC2F3 1488F850 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1488F864 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1488F884 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1488F8BC 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1488F8C8 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1488F8D4 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1488F914 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1488F92C 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5600 ---
+764CC2F3 131EF9C8 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 131EF9DC 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 131EF9FC 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 131EFA34 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 131EFA40 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 131EFA4C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 131EFA8C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 131EFAA4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5508 ---
+764CC2F3 13F2FCD8 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 13F2FCEC 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 13F2FD0C 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 13F2FD44 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 13F2FD50 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 13F2FD5C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 13F2FD9C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 13F2FDB4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2788 ---
+764CC2F3 1594F9F4 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1594FA08 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1594FA28 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1594FA60 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1594FA6C 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1594FA78 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1594FAB8 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1594FAD0 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5204 ---
+764CC2F3 124EFBA8 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 124EFBBC 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 124EFBDC 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 124EFC14 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 124EFC20 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 124EFC2C 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 124EFC6C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 124EFC84 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4772 ---
+764CC2F3 1B90F914 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1B90F928 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1B90F948 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1B90F980 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1B90F98C 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1B90F998 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1B90F9D8 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1B90F9F0 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 6088 ---
+764CC2F3 1BA8FBD0 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1BA8FBE4 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 1BA8FC04 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 1BA8FC3C 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 1BA8FC48 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 1BA8FC54 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1BA8FC94 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1BA8FCAC 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5888 ---
+764CC2F3 14E7FE20 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 14E7FE34 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6F67864C 14E7FE54 0001:000E764C C:\Windows\system32\nvwgf2um.dll
+6F80FD05 14E7FE8C 0001:0027ED05 C:\Windows\system32\nvwgf2um.dll
+6F80FDAD 14E7FE98 0001:0027EDAD C:\Windows\system32\nvwgf2um.dll
+764CED6C 14E7FEA4 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 14E7FEE4 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 14E7FEFC 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4296 ---
+764CC2F3 0E8EF728 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0E8EF73C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 0E8EF770 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 0E8EF7A8 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 0E8EF7BC 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 0E8EF7FC 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0E8EF814 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5940 ---
+764CC2F3 0E61F840 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0E61F854 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 0E61F888 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 0E61F8C0 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 0E61F8D4 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 0E61F914 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0E61F92C 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5184 ---
+764CC2F3 1BECFB58 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1BECFB6C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1BECFBA0 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1BECFBD8 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1BECFBEC 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1BECFC2C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1BECFC44 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3964 ---
+764CC2F3 1C02FD74 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1C02FD88 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1C02FDBC 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1C02FDF4 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1C02FE08 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1C02FE48 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1C02FE60 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 1168 ---
+764CC2F3 1C16FB9C 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1C16FBB0 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1C16FBE4 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1C16FC1C 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1C16FC30 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1C16FC70 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1C16FC88 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2820 ---
+764CC2F3 118DFEE4 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 118DFEF8 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 118DFF2C 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 118DFF64 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 118DFF78 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 118DFFB8 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 118DFFD0 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3480 ---
+764CC2F3 1ACEFCE8 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1ACEFCFC 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1ACEFD30 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1ACEFD68 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1ACEFD7C 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1ACEFDBC 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1ACEFDD4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3004 ---
+764CC2F3 1C2BFD4C 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1C2BFD60 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1C2BFD94 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1C2BFDCC 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1C2BFDE0 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1C2BFE20 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1C2BFE38 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 3476 ---
+764CC2F3 0EA0F788 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0EA0F79C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 0EA0F7D0 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 0EA0F808 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 0EA0F81C 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 0EA0F85C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0EA0F874 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5788 ---
+764CC2F3 1C52FC98 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1C52FCAC 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1C52FCE0 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1C52FD18 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1C52FD2C 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1C52FD6C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1C52FD84 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2696 ---
+764CC2F3 0E7DFCDC 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 0E7DFCF0 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 0E7DFD24 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 0E7DFD5C 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 0E7DFD70 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 0E7DFDB0 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 0E7DFDC8 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4896 ---
+764CC2F3 1C70F714 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1C70F728 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1C70F75C 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1C70F794 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1C70F7A8 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1C70F7E8 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1C70F800 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4700 ---
+764CC2F3 1C87F888 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1C87F89C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1C87F8D0 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1C87F908 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1C87F91C 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1C87F95C 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1C87F974 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5124 ---
+764CC2F3 1CAAFE8C 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1CAAFEA0 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1CAAFED4 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1CAAFF0C 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1CAAFF20 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1CAAFF60 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1CAAFF78 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 5752 ---
+764CC2F3 1CC0FA08 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1CC0FA1C 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1CC0FA50 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1CC0FA88 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1CC0FA9C 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1CC0FADC 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1CC0FAF4 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 2724 ---
+764CC2F3 1C97FBD0 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1C97FBE4 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+6AE68C6B 1C97FC18 0001:000D7C6B E:\ptr\World of Warcraft Beta\Battle.net.dll
+70F729BB 1C97FC50 0001:000019BB C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+70F72A47 1C97FC64 0001:00001A47 C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+7789377B 1C97FCA4 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1C97FCBC 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+--- Thread ID: 4040 ---
+764CC2F3 1D15FCC0 0001:0004B2F3 C:\Windows\system32\kernel32.dll
+764CC2A2 1D15FCD4 0001:0004B2A2 C:\Windows\system32\kernel32.dll
+00FA07CA 1D15FD48 0001:0004F7CA E:\ptr\World of Warcraft Beta\WoW.exe
+00FA525A 1D15FD5C 0001:0005425A E:\ptr\World of Warcraft Beta\WoW.exe
+017D7040 1D15FD94 0001:00886040 E:\ptr\World of Warcraft Beta\WoW.exe
+017D70CA 1D15FDA0 0001:008860CA E:\ptr\World of Warcraft Beta\WoW.exe
+764CED6C 1D15FDAC 0001:0004DD6C C:\Windows\system32\kernel32.dll
+7789377B 1D15FDEC 0001:0006277B C:\Windows\SYSTEM32\ntdll.dll
+7789374E 1D15FE04 0001:0006274E C:\Windows\SYSTEM32\ntdll.dll
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+Showing 58/58 threads...
+
+--- Thread ID: 4608 ---
+75C11818 KERNELBASE.dll Sleep+15 (0177D567,271E8838,263DF238,0022F514)
+0177D567 WoW.exe      <unknown symbol>+0 (271E8838,0022F514,0022F528,00000000)
+0177DBA2 WoW.exe      <unknown symbol>+0 (00000000,2762AB38,0ACAB3B8,00000000)
+0172BFF2 WoW.exe      <unknown symbol>+0 (00000000,0ACAB3B8,0022FC24,0171067A)
+017296FE WoW.exe      <unknown symbol>+0 (00000000,00000001,00000000,00000000)
+0171067A WoW.exe      <unknown symbol>+0 (00000000,0022FC84,05FAA780,0022FC9C)
+00F57B72 WoW.exe      <unknown symbol>+0 (00000000,C60B69A2,4407D611,4310938B)
+0126C65F WoW.exe      <unknown symbol>+0 (05FAA818,0C7CCF50,0000002C,00000006)
+0126EC71 WoW.exe      <unknown symbol>+0 (0022FD40,00000000,00000000,0022FD40)
+00FD086A WoW.exe      <unknown symbol>+0 (05FAA780,00000005,0022FD40,00000001)
+00FD1039 WoW.exe      <unknown symbol>+0 (05FAA780,00000005,0022FD40,05FAA780)
+00FCD2B6 WoW.exe      <unknown symbol>+0 (01ADCC39,3C83126F,00000000,00000000)
+00FCE834 WoW.exe      <unknown symbol>+0 (00000000,3C83126F,00000001,69676E45)
+00FCEFFA WoW.exe      <unknown symbol>+0 (00000000,00F5B449,00000000,0009001F)
+00FCF041 WoW.exe      <unknown symbol>+0 (017D2EFD,00F50000,00000000,00401F70)
+00F5B4ED WoW.exe      <unknown symbol>+0 (7FFDF000,0022FECC,7789377B,7FFDF000)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (7FFDF000,761E648A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (00F51110,7FFDF000,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (00F51110,7FFDF000,00000000,00000000)
+
+--- Thread ID: 4252 ---
+75436D30 mswsock.dll  <unknown symbol>+0 (00000001,00F2FB30,00F2FA2C,00F2F928)
+779A6A28 WS2_32.dll   select+159 (00000001,00F2FB30,00F2FA2C,00F2F928)
+774637C3 WININET.dll  InternetCrackUrlW+1690 (00F2FC4C,764CED6C,0045FFC8,00F2FC8C)
+774679CB WININET.dll  InternetSetStatusCallback+1297 (0045FFC8,00F2FC8C,7789377B,0045FFC8)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0045FFC8,76CE66CA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (774679BE,0045FFC8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (774679BE,0045FFC8,00000000,00000000)
+
+--- Thread ID: 3356 ---
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00472F60,7548623A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (7785FD0D,00472F60,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (7785FD0D,00472F60,00000000,00000000)
+
+--- Thread ID: 2496 ---
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00472140,75A362CA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (778603E9,00472140,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (778603E9,00472140,00000000,00000000)
+
+--- Thread ID: 5568 ---
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00472140,758E6186,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (778603E9,00472140,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (778603E9,00472140,00000000,00000000)
+
+--- Thread ID: 1128 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000022D0,FFFFFFFF,00000001,00000000)
+71E633B7 rasman.dll   RasAddNotification+1088 (00000000,038CFBD0,7789377B,00000000)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00000000,75B06196,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (71E632FB,00000000,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (71E632FB,00000000,00000000,00000000)
+
+--- Thread ID: 3504 ---
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00476CA0,75C860DE,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (778603E9,00476CA0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (778603E9,00476CA0,00000000,00000000)
+
+--- Thread ID: 5492 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000023AC,FFFFFFFF,00000000,041BF9DC)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000023AC,FFFFFFFF,00000000,00DE8AD8)
+00FA07CA WoW.exe      <unknown symbol>+0 (00DEC1C8,00000000,00CFA078,041BFA28)
+00FA525A WoW.exe      <unknown symbol>+0 (00DE8AD8,18271672,00000000,00CFA078)
+017D7040 WoW.exe      AssertAndCrash+128352 (00000000,041BFA40,764CED6C,00CFA078)
+017D70CA WoW.exe      AssertAndCrash+128490 (00CFA078,041BFA80,7789377B,00CFA078)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00CFA078,722760C6,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (017D7066,00CFA078,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (017D7066,00CFA078,00000000,00000000)
+
+--- Thread ID: 4264 ---
+764CED6C kernel32.dll BaseThreadInitThunk+18 (004734E0,723B638A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (754362EE,004734E0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (754362EE,004734E0,00000000,00000000)
+
+--- Thread ID: 4624 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002144,FFFFFFFF,00000000,0489FDD0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002144,FFFFFFFF,00CFE718,00000000)
+00FA4E11 WoW.exe      <unknown symbol>+0 (00000000,00000000,00CFFFC8,0489FE1C)
+00FA525A WoW.exe      <unknown symbol>+0 (00CFE718,18B51246,00000000,00CFFFC8)
+017D7040 WoW.exe      AssertAndCrash+128352 (00000000,0489FE34,764CED6C,00CFFFC8)
+017D70CA WoW.exe      AssertAndCrash+128490 (00CFFFC8,0489FE74,7789377B,00CFFFC8)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00CFFFC8,72B56432,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (017D7066,00CFFFC8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (017D7066,00CFFFC8,00000000,00000000)
+
+--- Thread ID: 3724 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00000008,FFFFFFFF,00000000,0499FCA0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00000008,FFFFFFFF,00000000,00CF9FE0)
+00FA07CA WoW.exe      <unknown symbol>+0 (00DEC200,00000000,00D00308,0499FCEC)
+00FA525A WoW.exe      <unknown symbol>+0 (00CF9FE0,18A510B6,00000000,00D00308)
+017D7040 WoW.exe      AssertAndCrash+128352 (00000000,0499FD04,764CED6C,00D00308)
+017D70CA WoW.exe      AssertAndCrash+128490 (00D00308,0499FD44,7789377B,00D00308)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00D00308,72A56702,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (017D7066,00D00308,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (017D7066,00D00308,00000000,00000000)
+
+--- Thread ID: 4568 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000242C,000003E8,00000000,050AF880)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000242C,000003E8,01B19700,000003E9)
+00F7C195 WoW.exe      <unknown symbol>+0 (000003E8,01B19704,00000002,01B19700)
+00F64D1E WoW.exe      <unknown symbol>+0 (050AF9E4,00000000,00D0F0E8,05837D48)
+00F65F6A WoW.exe      <unknown symbol>+0 (01B19700,00000000,05837D48,050AFA58)
+00FA525A WoW.exe      <unknown symbol>+0 (00D0F0E8,19361602,00000000,05837D48)
+017D7040 WoW.exe      AssertAndCrash+128352 (00000000,050AFA70,764CED6C,05837D48)
+017D70CA WoW.exe      AssertAndCrash+128490 (05837D48,050AFAB0,7789377B,05837D48)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (05837D48,733660F6,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (017D7066,05837D48,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (017D7066,05837D48,00000000,00000000)
+
+--- Thread ID: 4848 [Current Thread] ---
+00FB9079 WoW.exe      <unknown symbol>+0 (05836280,2772D278,06A0EAEC,2772D278)
+00F704E2 WoW.exe      <unknown symbol>+0 (2772D278,017657B0,00000000,00000000)
+00F7A4E5 WoW.exe      <unknown symbol>+0 (04EC397C,2772D278,00000000,262C0EE0)
+00FB9E32 WoW.exe      <unknown symbol>+0 (29FB0008,0C7657B0,000007F0,06A0F990)
+00F6A7B4 WoW.exe      <unknown symbol>+0 (0C7657B0,000007F0,00000000,0000000A)
+00F6AB1B WoW.exe      <unknown symbol>+0 (262C0EE0,0C7657B0,00000000,000007F0)
+01116352 WoW.exe      <unknown symbol>+0 (000012F0,05657120,0000259C,06A0FA24)
+01116B26 WoW.exe      <unknown symbol>+0 (056570E0,00000000,00000000,05657120)
+011E6A98 WoW.exe      <unknown symbol>+0 (01C1DBC0,06A0FA70,7789377B,05657120)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (05657120,709C6036,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (011E69E0,05657120,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (011E69E0,05657120,00000000,00000000)
+
+--- Thread ID: 3068 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000025A0,FFFFFFFF,00000000,06B0FF48)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000025A0,FFFFFFFF,06B0FF60,01116D2A)
+011E8DA0 WoW.exe      <unknown symbol>+0 (FFFFFFFF,00000BFC,05657140,000025A4)
+01116D2A WoW.exe      <unknown symbol>+0 (05657100,00000000,00000000,05657140)
+011E6A98 WoW.exe      <unknown symbol>+0 (01C1DBE0,06B0FFD4,7789377B,05657140)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (05657140,708C6592,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (011E69E0,05657140,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (011E69E0,05657140,00000000,2B72D816)
+
+--- Thread ID: 2516 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000025F0,FFFFFFFF,00000000,083DFD60)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000025F0,FFFFFFFF,192F6608,00000000)
+6F66E05B nvwgf2um.dll NVAPI_Thunk+661387 (00000000,083DFDA4,6F80FD05,0802DAF0)
+6F7D7958 nvwgf2um.dll NVAPI_Thunk+2142344 (0802DAF0,1B6B5793,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,083DFDBC,764CED6C,0802F7A8)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (0802F7A8,083DFDFC,7789377B,0802F7A8)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0802F7A8,7E0167BA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,0802F7A8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,0802F7A8,00000000,00000000)
+
+--- Thread ID: 4592 ---
+75C11818 KERNELBASE.dll Sleep+15 (00000064,06199680,017D7040,06199680)
+00F8D19A WoW.exe      <unknown symbol>+0 (00000000,00000000,0601A9D0,03F7FE10)
+00FA525A WoW.exe      <unknown symbol>+0 (06199680,1FCB124A,00000000,0601A9D0)
+017D7040 WoW.exe      AssertAndCrash+128352 (00000000,03F7FE28,764CED6C,0601A9D0)
+017D70CA WoW.exe      AssertAndCrash+128490 (0601A9D0,03F7FE68,7789377B,0601A9D0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0601A9D0,75CB642E,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (017D7066,0601A9D0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (017D7066,0601A9D0,00000000,00000000)
+
+--- Thread ID: 5504 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002128,FFFFFFFF,00000000,08BCFD08)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002128,FFFFFFFF,08BCFD20,010A217A)
+011E8DA0 WoW.exe      <unknown symbol>+0 (FFFFFFFF,00002600,00001580,062E8D00)
+010A217A WoW.exe      <unknown symbol>+0 (01B405B0,00000000,00000000,062E8D00)
+011E6A98 WoW.exe      <unknown symbol>+0 (01C1DC00,08BCFD94,7789377B,062E8D00)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (062E8D00,7E8067D2,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (011E69E0,062E8D00,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (011E69E0,062E8D00,00000000,00000000)
+
+--- Thread ID: 4508 ---
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00000000,7FC3603E,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (7392A3E0,00000000,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (7392A3E0,00000000,00000000,00000000)
+
+--- Thread ID: 2220 ---
+75C11818 KERNELBASE.dll Sleep+15 (0000000A,0A29FB4C,0113F94C,0000000A)
+011310CD WoW.exe      <unknown symbol>+0 (0000000A,00000000,00000000,000008AC)
+0113F94C WoW.exe      <unknown symbol>+0 (06545CC0,0A29FB98,7789377B,06545CC0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (06545CC0,7C1561DE,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (0113F8A0,06545CC0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (0113F8A0,06545CC0,00000000,00000000)
+
+--- Thread ID: 4280 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002674,000003E8,00000000,0B38F798)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002674,000003E8,0B38F7B0,017ADF75)
+011E8DA0 WoW.exe      <unknown symbol>+0 (000003E8,000010B8,0ABEACE0,00002700)
+017ADF75 WoW.exe      <unknown symbol>+0 (00000000,0B38F7E4,011E6A98,0ABEFEB8)
+017AE1C1 WoW.exe      <unknown symbol>+0 (0ABEFEB8,00000000,00000000,0ABEACE0)
+011E6A98 WoW.exe      <unknown symbol>+0 (01C1DC20,0B38F830,7789377B,0ABEACE0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0ABEACE0,7D046276,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (011E69E0,0ABEACE0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (011E69E0,0ABEACE0,00000000,00000000)
+
+--- Thread ID: 4780 ---
+764CBD1E kernel32.dll WaitForMultipleObjectsEx+142 (00000003,7FFDF000,00000000,000001F4)
+764CBD8C kernel32.dll WaitForMultipleObjects+24 (00000003,0B48FD64,00000000,000001F4)
+017AE8DF WoW.exe      <unknown symbol>+0 (0ABEAD00,0B48FED0,011E6A98,0ABEFEA8)
+017ADE3E WoW.exe      <unknown symbol>+0 (0ABEFEA8,00000000,00000000,0ABEAD00)
+011E6A98 WoW.exe      <unknown symbol>+0 (01C1DC40,0B48FF1C,7789377B,0ABEAD00)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0ABEAD00,7D74655A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (011E69E0,0ABEAD00,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (011E69E0,0ABEAD00,00000000,00000000)
+
+--- Thread ID: 4632 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002130,FFFFFFFF,00000000,0A13FAD4)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002130,FFFFFFFF,0A13FB10,011FFAD8)
+011E8DA0 WoW.exe      <unknown symbol>+0 (FFFFFFFF,00001218,0AEFA5F0,00002714)
+011FFAD8 WoW.exe      <unknown symbol>+0 (01C1DC60,0A13FB5C,7789377B,0AEFA5F0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0AEFA5F0,7C2F611A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (011E69E0,0AEFA5F0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (011E69E0,0AEFA5F0,00000000,00000000)
+
+--- Thread ID: 5320 ---
+764CED6C kernel32.dll BaseThreadInitThunk+18 (00000000,78C76196,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (7784F4E0,00000000,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (7784F4E0,00000000,00000000,00000000)
+
+--- Thread ID: 4192 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002730,FFFFFFFF,00000000,0F27F7FC)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002730,FFFFFFFF,00000000,0CC401FC)
+0113F695 WoW.exe      <unknown symbol>+0 (0A6F7740,FFFFFFFF,0F27F824,0113F910)
+01131269 WoW.exe      <unknown symbol>+0 (0A6F7740,00000000,00000000,00001060)
+0113F910 WoW.exe      <unknown symbol>+0 (0CC401FC,0F27F870,7789377B,0CC401FC)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0CC401FC,791B6236,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (0113F8A0,0CC401FC,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (0113F8A0,0CC401FC,00000000,00000000)
+
+--- Thread ID: 4172 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002778,FFFFFFFF,00000000,0F44FE98)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002778,FFFFFFFF,00000000,0CC40F34)
+0113F695 WoW.exe      <unknown symbol>+0 (0A6F7890,FFFFFFFF,0F44FEC0,0113F910)
+01131269 WoW.exe      <unknown symbol>+0 (0A6F7890,00000000,00000000,0000104C)
+0113F910 WoW.exe      <unknown symbol>+0 (0CC40F34,0F44FF0C,7789377B,0CC40F34)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0CC40F34,7978654A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (0113F8A0,0CC40F34,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (0113F8A0,0CC40F34,00000000,00000000)
+
+--- Thread ID: 488 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1A3DFAF4)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,080478C0)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,096B511B,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1A3DFB44,764CED6C,080478C0)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (080478C0,1A3DFB84,7789377B,080478C0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (080478C0,6C0161C2,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,080478C0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,080478C0,00000000,00000000)
+
+--- Thread ID: 6048 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1A5CFE84)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,08047AE8)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,090A548B,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1A5CFED4,764CED6C,08047AE8)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08047AE8,1A5CFF14,7789377B,08047AE8)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08047AE8,6C606552,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08047AE8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08047AE8,00000000,00000000)
+
+--- Thread ID: 2464 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1A6FFE98)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,08047D10)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,093954E7,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1A6FFEE8,764CED6C,08047D10)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08047D10,1A6FFF28,7789377B,08047D10)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08047D10,6C53656E,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08047D10,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08047D10,00000000,00000000)
+
+--- Thread ID: 4364 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1A26FCA4)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,08048160)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,097056EB,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1A26FCF4,764CED6C,08048160)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048160,1A26FD34,7789377B,08048160)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048160,6C1A6772,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048160,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048160,00000000,00000000)
+
+--- Thread ID: 2236 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1A92FAE0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,08048388)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,09C4512F,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1A92FB30,764CED6C,08048388)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048388,1A92FB70,7789377B,08048388)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048388,6CAE6136,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048388,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048388,00000000,00000000)
+
+--- Thread ID: 1636 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1A7FFBE0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,080485B0)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,0929562F,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1A7FFC30,764CED6C,080485B0)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (080485B0,1A7FFC70,7789377B,080485B0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (080485B0,6C436636,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,080485B0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,080485B0,00000000,00000000)
+
+--- Thread ID: 5308 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1ABEFDF0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,08048160)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,09E8541F,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1ABEFE40,764CED6C,08048160)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048160,1ABEFE80,7789377B,08048160)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048160,6C8264C6,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048160,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048160,00000000,00000000)
+
+--- Thread ID: 4804 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (0000279C,FFFFFFFF,00000000,1ADFF7F8)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (0000279C,FFFFFFFF,00000000,080485B0)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B61260,09895207,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1ADFF848,764CED6C,080485B0)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (080485B0,1ADFF888,7789377B,080485B0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (080485B0,6CE362CE,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,080485B0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,080485B0,00000000,00000000)
+
+--- Thread ID: 5272 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,1488F884)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,080485B0)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,07DE528B,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1488F8D4,764CED6C,080485B0)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (080485B0,1488F914,7789377B,080485B0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (080485B0,62B46352,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,080485B0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,080485B0,00000000,00000000)
+
+--- Thread ID: 5600 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,131EF9FC)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,08048C28)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,00485003,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,131EFA4C,764CED6C,08048C28)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048C28,131EFA8C,7789377B,08048C28)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048C28,652260CA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048C28,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048C28,00000000,00000000)
+
+--- Thread ID: 5508 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,13F2FD0C)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,08048E50)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,00A45773,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,13F2FD5C,764CED6C,08048E50)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048E50,13F2FD9C,7789377B,08048E50)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048E50,65CE67DA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048E50,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048E50,00000000,00000000)
+
+--- Thread ID: 2788 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,1594FA28)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,08048C28)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,06C25057,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1594FA78,764CED6C,08048C28)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048C28,1594FAB8,7789377B,08048C28)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048C28,63A860FE,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048C28,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048C28,00000000,00000000)
+
+--- Thread ID: 5204 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,124EFBDC)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,08048E50)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,01185623,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,124EFC2C,764CED6C,08048E50)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048E50,124EFC6C,7789377B,08048E50)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048E50,6472662A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048E50,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048E50,00000000,00000000)
+
+--- Thread ID: 4772 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,1B90F948)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,08048C28)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,08C653B7,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1B90F998,764CED6C,08048C28)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048C28,1B90F9D8,7789377B,08048C28)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048C28,6DAC639E,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048C28,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048C28,00000000,00000000)
+
+--- Thread ID: 6088 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,1BA8FC04)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,080496F0)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,08FE560B,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,1BA8FC54,764CED6C,080496F0)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (080496F0,1BA8FC94,7789377B,080496F0)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (080496F0,6D9466D2,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,080496F0,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,080496F0,00000000,00000000)
+
+--- Thread ID: 5888 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000027D4,FFFFFFFF,00000000,14E7FE54)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000027D4,FFFFFFFF,00000000,08048E50)
+6F67864C nvwgf2um.dll NVAPI_Thunk+703868 (06B610E0,07B154BB,00000000,00000000)
+6F80FD05 nvwgf2um.dll NVAPI_Thunk+2372661 (00000000,14E7FEA4,764CED6C,08048E50)
+6F80FDAD nvwgf2um.dll NVAPI_Thunk+2372829 (08048E50,14E7FEE4,7789377B,08048E50)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (08048E50,62DB64A2,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (6F80FD2B,08048E50,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (6F80FD2B,08048E50,00000000,00000000)
+
+--- Thread ID: 4296 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,0E8EF770)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA884E0)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88588,2E0B83A9,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F34E8,0E8EF7FC)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F34E8,78B26DBA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F34E8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F34E8,00000000,00000000)
+
+--- Thread ID: 5940 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,0E61F888)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA885B8)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA885E8,2EE48CC1,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F3708,0E61F914)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F3708,785D6352,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F3708,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F3708,00000000,00000000)
+
+--- Thread ID: 5184 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,1BECFBA0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA88588)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88618,3B698FD9,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F34E8,1BECFC2C)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F34E8,6DD0666A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F34E8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F34E8,00000000,00000000)
+
+--- Thread ID: 3964 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,1C02FDBC)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA885E8)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88648,3C8789F5,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F3708,1C02FE48)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F3708,6A3E640E,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F3708,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F3708,00000000,00000000)
+
+--- Thread ID: 1168 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,1C16FBE4)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA88618)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88678,3C93881D,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F34E8,1C16FC70)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F34E8,6A2A6636,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F34E8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F34E8,00000000,00000000)
+
+--- Thread ID: 2820 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,118DFF2C)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA88690)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA886C0,31088B65,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F41A8,118DFFB8)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F41A8,67B165FE,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F41A8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F41A8,00000000,00000000)
+
+--- Thread ID: 3480 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,1ACEFD30)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA88678)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA886D8,3A4B8969,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F34E8,1ACEFDBC)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F34E8,6CF267FA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F34E8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F34E8,00000000,00000000)
+
+--- Thread ID: 3004 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,1C2BFD94)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA886F0)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88720,3CAE89CD,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F43C8,1C2BFE20)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F43C8,6A176466,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F43C8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F43C8,00000000,00000000)
+
+--- Thread ID: 3476 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,0EA0F7D0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA886D8)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88738,2E258C09,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F34E8,0EA0F85C)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F34E8,789C621A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F34E8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F34E8,00000000,00000000)
+
+--- Thread ID: 5788 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002808,FFFFFFFF,00000000,1C52FCE0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002808,FFFFFFFF,6AE5FD60,0CA88750)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88780,3CD78919,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F4808,1C52FD6C)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F4808,6A6E672A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F4808,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F4808,00000000,00000000)
+
+--- Thread ID: 2696 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002834,FFFFFFFF,00000000,0E7DFD24)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002834,FFFFFFFF,6AE5FD60,0CA88780)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88720,2EF8895D,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F4808,0E7DFDB0)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F4808,784167F6,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F4808,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F4808,00000000,00000000)
+
+--- Thread ID: 4896 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002840,FFFFFFFF,00000000,1C70F75C)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002840,FFFFFFFF,6AE5FD60,0CA88720)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA887B0,3CF58395,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F4808,1C70F7E8)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F4808,6A4C6DAE,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F4808,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F4808,00000000,00000000)
+
+--- Thread ID: 4700 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002840,FFFFFFFF,00000000,1C87F8D0)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002840,FFFFFFFF,6AE5FD60,0CA887C8)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA887F8,3C028D09,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F4E68,1C87F95C)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F4E68,6ABB631A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F4E68,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F4E68,00000000,00000000)
+
+--- Thread ID: 5124 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002840,FFFFFFFF,00000000,1CAAFED4)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002840,FFFFFFFF,6AE5FD60,0CA88810)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88840,3C2F8B0D,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F52A8,1CAAFF60)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F52A8,6A966526,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F52A8,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F52A8,00000000,00000000)
+
+--- Thread ID: 5752 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002840,FFFFFFFF,00000000,1CC0FA50)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002840,FFFFFFFF,6AE5FD60,0CA887F8)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA88858,3C458E89,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F4E68,1CC0FADC)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F4E68,6AFC609A,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F4E68,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F4E68,00000000,00000000)
+
+--- Thread ID: 2724 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (00002850,FFFFFFFF,00000000,1C97FC18)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (00002850,FFFFFFFF,6AE5FD60,0CA88888)
+6AE68C6B Battle.net.dll <unknown symbol>+0 (0CA888B8,3C128851,00000000,00000000)
+70F729BB MSVCR80.dll  endthreadex+59 (00000000,764CED6C,0E4F4E68,1C97FCA4)
+70F72A47 MSVCR80.dll  endthreadex+199 (0E4F4E68,6AAB66E2,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (70F729E1,0E4F4E68,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (70F729E1,0E4F4E68,00000000,00000000)
+
+--- Thread ID: 4040 ---
+764CC2F3 kernel32.dll WaitForSingleObjectEx+67 (000028F0,FFFFFFFF,00000000,1D15FD48)
+764CC2A2 kernel32.dll WaitForSingleObject+18 (000028F0,FFFFFFFF,00000000,0C7C80C8)
+00FA07CA WoW.exe      <unknown symbol>+0 (064104B0,00000000,0CDBE648,1D15FD94)
+00FA525A WoW.exe      <unknown symbol>+0 (0C7C80C8,012911CE,00000000,0CDBE648)
+017D7040 WoW.exe      AssertAndCrash+128352 (00000000,1D15FDAC,764CED6C,0CDBE648)
+017D70CA WoW.exe      AssertAndCrash+128490 (0CDBE648,1D15FDEC,7789377B,0CDBE648)
+764CED6C kernel32.dll BaseThreadInitThunk+18 (0CDBE648,6B2967AA,00000000,00000000)
+7789377B ntdll.dll    RtlInitializeExceptionChain+239 (017D7066,0CDBE648,00000000,00000000)
+7789374E ntdll.dll    RtlInitializeExceptionChain+194 (017D7066,0CDBE648,00000000,00000000)
+
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+DBG-MODULE<00390000 0001B000 "EasyHK32.dll" "EasyHK32.pdb" 0 {602b958c-5129-4097-b00d2604ac659c47} 4 1299153095>
+DBG-MODULE<00F50000 0102F000 "WoW.exe" "WowB.pdb" 0 {0b5dd09f-a272-42cb-8695c7eb849d8539} 1 1338357039>
+DBG-MODULE<10000000 000A4000 "MacType.dll" "MacType.pdb" 0 {accc307f-6769-43b3-b7a7bacdfb5b09a0} 10 1319039096>
+DBG-MODULE<16080000 00019000 "mdnsNSP.dll" "mdnsNSP.pdb" 0 {0af2f131-8044-46d8-bc574bc39def79f9} 1 1141159349>
+DBG-MODULE<62FD0000 001C3000 "d3d9.dll" "d3d9.pdb" 0 {f55aeb50-462b-473f-9733515dc6532daf} 2 1290254259>
+DBG-MODULE<68DB0000 00006000 "DCIMAN32.dll" "dciman32.pdb" 0 {f1c0c4b3-249c-4aaa-8a5130d41835b365} 2 1247533492>
+DBG-MODULE<68DC0000 000E7000 "DDRAW.dll" "ddraw.pdb" 0 {497dbeef-b385-4f24-bc6a468137860ada} 2 1247533496>
+DBG-MODULE<6AC40000 00141000 "dbghelp.dll" "dbghelp.pdb" 0 {24f6937d-6631-40a2-aff3210434afba90} 1 1265054906>
+DBG-MODULE<6AD90000 002B4000 "Battle.net.dll" "Battle.net.pdb" 0 {23cc25c5-119e-4c0a-81ad2e642bf4a211} 1 1326226409>
+DBG-MODULE<6BFA0000 00079000 "mscms.dll" "mscms.pdb" 0 {93303cbc-777e-44a5-92376e1f326e2017} 2 1290254544>
+DBG-MODULE<6D3D0000 0007B000 "AcSpecfc.DLL" "AcSpecfc.pdb" 0 {d581e4f3-6080-4ba2-a2171d69e729d632} 2 1247533441>
+DBG-MODULE<6D570000 00083000 "d3d11.dll" "d3d11.pdb" 0 {d3b50435-f0aa-4af5-b6246cd0f4419137} 1 1290254256>
+DBG-MODULE<6E120000 00008000 "winrnr.dll" "winrnr.pdb" 0 {45f8b97b-1285-48d7-88289c58e8c5b3ca} 2 1247533892>
+DBG-MODULE<6E130000 00012000 "pnrpnsp.dll" "pnrpnsp.pdb" 0 {d02619bd-04db-444d-9215d3ce9d69f106} 2 1247533814>
+DBG-MODULE<6E2F0000 00038000 "icm32.dll" "icm32.pdb" 0 {189bab60-fb41-4e25-8dc5e4996497eea9} 1 1247533562>
+DBG-MODULE<6EE70000 00006000 "d3d8thk.dll" "d3d8thk.pdb" 0 {d9c3a335-615f-448e-a0b012d76716e6b7} 2 1247533480>
+DBG-MODULE<6EE90000 00010000 "napinsp.dll" "NapiNSP.pdb" 0 {35d1fb44-6b06-4c3c-84108202e55b284a} 2 1247533677>
+DBG-MODULE<6F590000 00304000 "nvwgf2um.dll" "nvwgf2um.pdb" 0 {b1602cb0-859c-4af3-af7287d2bd944a5b} 1 1247533805>
+DBG-MODULE<6FA10000 00083000 "dxgi.dll" "dxgi.pdb" 0 {fd381f37-f51b-45ad-844159d1ce162e10} 2 1290254361>
+DBG-MODULE<70D30000 00240000 "msi.dll" "msi.pdb" 0 {931c9f66-b9bc-44a6-b828506df2597e33} 2 1290254594>
+DBG-MODULE<70F70000 0009B000 "MSVCR80.dll" "msvcr80.i386.pdb" 0 {54c9e2f3-5154-4d1c-b39517dc4b299ea8} 1 1305336819>
+DBG-MODULE<71110000 00006000 "rasadhlp.dll" "rasadhlp.pdb" 0 {9c177d0e-6fd1-4d28-bae05d9757e8182f} 2 1247533782>
+DBG-MODULE<71140000 00012000 "MPR.dll" "mpr.pdb" 0 {1408743d-4222-4025-a49e02a79ce7190a} 2 1247533622>
+DBG-MODULE<71160000 00084000 "COMCTL32.dll" "comctl32v582.pdb" 0 {ab2667ae-cefc-4ff9-aa74c3b9857bfa9a} 2 1290254380>
+DBG-MODULE<713F0000 0004F000 "webio.dll" "webio.pdb" 0 {a4d8edee-3211-49f4-931a8f77ff4ae154} 2 1321507702>
+DBG-MODULE<71440000 00058000 "WINHTTP.dll" "winhttp.pdb" 0 {ab606da6-47f9-4a10-8ffe404a2624d13e} 2 1290254910>
+DBG-MODULE<71E60000 00015000 "rasman.dll" "rasman.pdb" 0 {df9a8608-77f9-4fec-bb7a2cf29c7d5edd} 2 1247533791>
+DBG-MODULE<71E80000 00052000 "RASAPI32.dll" "rasapi32.pdb" 0 {b6e3857a-947f-4f9e-86d6c3a36576bf15} 2 1247533783>
+DBG-MODULE<729B0000 00030000 "DINPUT8.dll" "dinput8.pdb" 0 {ca86b91a-9619-4907-8e07314413ffe1dd} 2 1247533505>
+DBG-MODULE<72B90000 0000D000 "rtutils.dll" "rtutils.pdb" 0 {b7794699-4af6-4de6-b40cbffe6d34d049} 2 1290254764>
+DBG-MODULE<730E0000 00038000 "fwpuclnt.dll" "fwpuclnt.pdb" 0 {eb7d55a5-3635-4ad9-87ce2e36914aaf37} 2 1290254386>
+DBG-MODULE<73220000 00007000 "midimap.dll" "midimap.pdb" 0 {49f76fa5-3b85-4e54-a748a2b4301471b6} 2 1247533700>
+DBG-MODULE<73360000 00014000 "MSACM32.dll" "msacm32.pdb" 0 {3d318d5e-38c5-4502-b64578f0710a510f} 2 1247533646>
+DBG-MODULE<73380000 00008000 "msacm32.drv" "msacm32.pdb" 0 {eb29395a-e017-43db-8c5dcb7f5a1350f9} 1 1247533647>
+DBG-MODULE<734C0000 00036000 "AUDIOSES.DLL" "AudioSes.pdb" 0 {a88fcf91-9449-49a8-a1863d1592bb2fd1} 2 1290254117>
+DBG-MODULE<73590000 0001C000 "iphlpapi.DLL" "iphlpapi.pdb" 0 {f162d2e1-37ed-4297-8bf38c99aee2daab} 2 1290254425>
+DBG-MODULE<735B0000 00007000 "WINNSI.DLL" "winnsi.pdb" 0 {f7a0c25b-1b0e-4fa6-876494d3f6bfd101} 2 1247533891>
+DBG-MODULE<73870000 00013000 "dwmapi.dll" "dwmapi.pdb" 0 {d8d91b3f-339a-4fdc-960fc7121d146df4} 2 1247533575>
+DBG-MODULE<73890000 00004000 "ksuser.dll" "ksuser.pdb" 0 {7ae6bfac-128c-4c57-baaf1c0b79fa95b4} 2 1247533747>
+DBG-MODULE<738A0000 00030000 "wdmaud.drv" "wdmaud.pdb" 0 {f232d0b4-9257-4d79-92d5805bef84a01e} 2 1290254886>
+DBG-MODULE<738D0000 00009000 "HID.DLL" "hid.pdb" 0 {015645ef-10de-49b0-84ee745a3fdc0f8d} 2 1247533548>
+DBG-MODULE<73920000 00032000 "WINMM.dll" "winmm.pdb" 0 {7afd98fc-aad3-4f6b-8b31a4667c4e2bfc} 2 1290254914>
+DBG-MODULE<73C10000 00040000 "uxtheme.dll" "UxTheme.pdb" 0 {5becab35-e771-4835-a6bf3dadd891bb3a} 2 1247533880>
+DBG-MODULE<73C90000 00025000 "peerdist.dll" "peerdist.pdb" 0 {71032826-7640-4af4-8567ee4df4a88bc3} 1 1247533772>
+DBG-MODULE<74490000 0019E000 "comctl32.dll" "comctl32.pdb" 0 {b4ce90aa-b95e-4b89-a22a7711dfd7e6ef} 2 1290254108>
+DBG-MODULE<748F0000 000F5000 "PROPSYS.dll" "propsys.pdb" 0 {d0eda507-e53d-4579-a337f875012d7b48} 2 1290254723>
+DBG-MODULE<74A40000 00010000 "NLAapi.dll" "nlaapi.pdb" 0 {4c9854c4-89d7-4a7f-97b24d70fac99cf3} 2 1290254607>
+DBG-MODULE<74A50000 00039000 "MMDevApi.dll" "MMDevAPI.pdb" 0 {941e45a6-3e8f-457d-90ce29cc508c34b9} 2 1290254482>
+DBG-MODULE<74A90000 00007000 "AVRT.dll" "avrt.pdb" 0 {a15e148a-cfc7-4f88-a0a6daf71cc91647} 2 1247533464>
+DBG-MODULE<74B20000 00021000 "ntmarta.dll" "ntmarta.pdb" 0 {654e30bb-ae86-4799-893af657fea77172} 2 1247533801>
+DBG-MODULE<74DD0000 00009000 "VERSION.dll" "version.pdb" 0 {52234e5c-7ec4-4646-b62d56357b2c9487} 2 1247533867>
+DBG-MODULE<74F50000 00005000 "wshtcpip.dll" "wshtcpip.pdb" 0 {92a92ff2-9357-4b48-9795898561f00719} 2 1247533914>
+DBG-MODULE<75020000 00017000 "USERENV.dll" "userenv.pdb" 0 {fd47f512-75f8-4fca-aa6071cb11cc4ab8} 2 1290254888>
+DBG-MODULE<75210000 0003B000 "rsaenh.dll" "rsaenh.pdb" 0 {f03813e5-a055-4853-a6bc085c17a3ab35} 2 1247533792>
+DBG-MODULE<752F0000 00044000 "dnsapi.DLL" "dnsapi.pdb" 0 {4b77ba91-498a-432f-8dd6e52085c4c423} 2 1299130163>
+DBG-MODULE<75420000 00006000 "wship6.dll" "wship6.pdb" 0 {02e45101-e951-429f-85676adfcc0ea72a} 2 1247533910>
+DBG-MODULE<75430000 0003C000 "mswsock.dll" "mswsock.pdb" 0 {5d01bc6d-4da8-4939-baf8725d60d595a6} 2 1290254568>
+DBG-MODULE<75470000 00016000 "CRYPTSP.dll" "cryptsp.pdb" 0 {9536207f-9c26-4d92-b2c50d44e77ac0a9} 1 1247533629>
+DBG-MODULE<755E0000 0001B000 "AUTHZ.dll" "authz.pdb" 0 {2d43c270-b407-466c-8b640ee17bf00012} 2 1247533452>
+DBG-MODULE<75790000 00008000 "Secur32.dll" "secur32.pdb" 0 {7228cd90-1552-4398-ba7252ed9845e58c} 2 1321507683>
+DBG-MODULE<758D0000 0001B000 "SspiCli.dll" "sspicli.pdb" 0 {a52a229b-ffe9-46c7-9c48fcfa5323d6e9} 2 1321507722>
+DBG-MODULE<758F0000 0004C000 "apphelp.dll" "apphelp.pdb" 0 {f442bedc-c0f6-46d3-840d29898c5899cb} 2 1290254142>
+DBG-MODULE<75940000 0000C000 "CRYPTBASE.dll" "cryptbase.pdb" 0 {e62feae5-59ee-4cd9-95614215b01ac210} 2 1247526721>
+DBG-MODULE<759C0000 0000B000 "profapi.dll" "profapi.pdb" 0 {ca045ca9-e5c7-4d89-9b90e776b38a18b3} 2 1247526721>
+DBG-MODULE<75AC0000 0002D000 "WINTRUST.dll" "wintrust.pdb" 0 {c26dbf6b-4d8a-4116-b1fcc9fcb2a61293} 2 1290254930>
+DBG-MODULE<75AF0000 0011D000 "CRYPT32.dll" "crypt32.pdb" 0 {3d273410-ea6d-4676-8097f52c36cf1c9d} 2 1290254401>
+DBG-MODULE<75C10000 0004A000 "KERNELBASE.dll" "kernelbase.pdb" 0 {82bbf29d-9765-4220-baaf1f90b0c0a96a} 2 1310790080>
+DBG-MODULE<75C60000 00027000 "CFGMGR32.dll" "cfgmgr32.pdb" 0 {93b1a0a8-2f11-4743-af9aabb1a1738246} 2 1290254215>
+DBG-MODULE<75C90000 00012000 "DEVOBJ.dll" "devobj.pdb" 0 {5ec40ec6-5c50-45eb-96f4cfdcfc6e1906} 2 1247533509>
+DBG-MODULE<75CB0000 0001F000 "IMM32.dll" "imm32.pdb" 0 {91a00044-74e2-4aa8-9f185029e3114489} 2 1290254405>
+DBG-MODULE<75CD0000 000C9000 "USER32.dll" "user32.pdb" 0 {dd74d86f-1262-4845-a42a6a5baab4d7a8} 2 1290254886>
+DBG-MODULE<75DA0000 00057000 "SHLWAPI.dll" "shlwapi.pdb" 0 {e128b1ce-e2eb-438c-8646e6967118f33e} 2 1290254818>
+DBG-MODULE<75E00000 000A0000 "ADVAPI32.dll" "advapi32.pdb" 0 {3f32049f-550c-42b0-9cf114a1fb8a97e9} 2 1290254086>
+DBG-MODULE<75EA0000 00083000 "CLBCatQ.DLL" "CLBCatQ.pdb" 0 {00a720c7-9bac-4022-95b6ebdc14725718} 2 1247533489>
+DBG-MODULE<75F30000 00019000 "sechost.dll" "sechost.pdb" 0 {7af14d02-d41e-4cd6-942745fe0e6372b1} 1 1247533828>
+DBG-MODULE<75F50000 000CC000 "MSCTF.dll" "msctf.pdb" 0 {173daef8-6b25-48db-a6134eb74c4d2f23} 2 1247533673>
+DBG-MODULE<76050000 0019D000 "SETUPAPI.dll" "setupapi.pdb" 0 {c6b7cc38-0fcd-42c2-9edb1b61757dfd92} 2 1290254809>
+DBG-MODULE<761F0000 000A1000 "RPCRT4.dll" "rpcrt4.pdb" 0 {189cc56e-2d4a-43da-8a269e088721f13d} 2 1290254754>
+DBG-MODULE<762A0000 0008F000 "OLEAUT32.dll" "oleaut32.pdb" 0 {68047829-a475-4e78-9ac1c8035ba168cd} 2 1314418730>
+DBG-MODULE<76330000 000AC000 "msvcrt.dll" "msvcrt.pdb" 0 {f1d253f9-555c-46df-8076400a52b3a929} 2 1324021538>
+DBG-MODULE<763E0000 00045000 "WLDAP32.dll" "wldap32.pdb" 0 {a0183052-c47e-4652-bfc983cc603c1244} 2 1290254946>
+DBG-MODULE<76430000 0004E000 "GDI32.dll" "gdi32.pdb" 0 {96948e51-3a87-47c5-8a699b8a7009dcb2} 2 1290254346>
+DBG-MODULE<76480000 000D4000 "kernel32.dll" "kernel32.pdb" 0 {56825acb-653e-4569-bcf9213150ec3fef} 2 1310790079>
+DBG-MODULE<76560000 00C4A000 "SHELL32.dll" "shell32.pdb" 0 {4555a5fb-02fa-4e49-b65a25616cd97a6b} 2 1290254814>
+DBG-MODULE<771B0000 0007B000 "COMDLG32.dll" "comdlg32.pdb" 0 {96bc483c-dff0-4d1a-afe462f093b954ec} 2 1290254381>
+DBG-MODULE<77230000 0009D000 "USP10.dll" "usp10.pdb" 0 {f49786e2-c7c5-4ea9-9e7c37120cdaeb9c} 1 1290254889>
+DBG-MODULE<772D0000 0015C000 "ole32.dll" "ole32.pdb" 0 {5061f11a-9a57-4335-95ea5ea75a156f4b} 2 1290254703>
+DBG-MODULE<77430000 0011B000 "WININET.dll" "wininet.pdb" 0 {c3429046-2795-4c4a-83c6ecdc24ca86c3} 2 1323831414>
+DBG-MODULE<77550000 001B8000 "iertutil.dll" "iertutil.pdb" 0 {855b6529-26c6-40e2-b71bc9b2dfd07578} 2 1323831119>
+DBG-MODULE<77710000 00111000 "urlmon.dll" "urlmon.pdb" 0 {3fac22f7-9bc6-47fc-b2dd5a2850a57f18} 2 1323831463>
+DBG-MODULE<77830000 0013C000 "ntdll.dll" "ntdll.pdb" 0 {093d2cd7-f95b-4cc6-b5318d405cc31566} 2 1321507680>
+DBG-MODULE<77970000 0000C000 "MSASN1.dll" "msasn1.pdb" 0 {003d5f0e-2480-4b20-953a7a021b52fc32} 2 1290254537>
+DBG-MODULE<77980000 00003000 "Normaliz.dll" "normaliz.pdb" 0 {9481804b-b4fd-4703-ae6ae76f8b99b476} 1 1247533780>
+DBG-MODULE<77990000 0000A000 "LPK.dll" "lpk.pdb" 0 {b99319fe-4427-418f-9eb5432b9f6a1341} 2 1247533593>
+DBG-MODULE<779A0000 00035000 "WS2_32.dll" "ws2_32.pdb" 0 {18c960b9-5840-4c4f-80f686ee978a33d4} 2 1290254952>
+DBG-MODULE<779E0000 00006000 "NSI.dll" "nsi.pdb" 0 {d15a8167-9fae-4a73-92344b6fd2686794} 2 1247533785>
+DBG-MODULE<779F0000 00005000 "PSAPI.DLL" "psapi.pdb" 0 {a895a052-f325-481b-9e2da00a29e8d5df} 2 1247533774>
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Stack: 1024 bytes starting at (ESP = 06A0D248)
+
+* = addr                            **                                *       
+06A0D240: A5 11 1F 01  48 D2 A0 06  00 00 00 00  01 00 04 00  ....H...........
+06A0D250: 03 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D260: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D270: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D280: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D290: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D2A0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D2B0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D2C0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D2D0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D2E0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D2F0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D300: 00 00 00 00  20 D5 A0 06  A5 11 1F 01  00 00 00 00  .... ...........
+06A0D310: 00 00 00 00  48 D2 A0 06  00 00 00 00  00 00 00 00  ....H...........
+06A0D320: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D330: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D340: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D350: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D360: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D370: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D380: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D390: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D3A0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D3B0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D3C0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D3D0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D3E0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D3F0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D400: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D410: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D420: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D430: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D440: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D450: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D460: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D470: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D480: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D490: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D4A0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D4B0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D4C0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D4D0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D4E0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D4F0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D500: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+06A0D510: 00 00 00 00  00 00 00 00  00 00 00 00  05 00 11 00  ................
+06A0D520: 54 D5 A0 06  CD 25 1E 01  01 00 6E 00  60 08 1E 01  T....%....n.`...
+06A0D530: E4 28 00 00  03 00 00 00  50 D2 A0 06  98 D9 A0 06  .(......P.......
+06A0D540: 00 10 00 00  78 D2 72 27  83 00 00 00  A0 C7 C1 01  ....x.r'........
+06A0D550: 20 D3 72 27  7C D5 A0 06  A2 8F F6 00  83 00 10 85   .r'|...........
+06A0D560: E4 AA 93 01  FC FF FF FF  98 D9 A0 06  00 00 00 00  ................
+06A0D570: 01 00 00 00  00 00 00 00  11 11 11 11  AC EA A0 06  ................
+06A0D580: 79 90 FB 00  20 D3 72 27  98 D9 A0 06  F0 07 00 00  y... .r'........
+06A0D590: 80 62 83 05  00 00 00 00  20 32 30 33  32 20 31 0A  .b...... 2032 1.
+06A0D5A0: 00 6E 2D 64  F0 07 00 00  F0 07 00 00  E4 D9 A0 06  .n-d............
+06A0D5B0: 4B AE 90 01  00 00 00 00  F0 D9 A0 06  09 98 FA 00  K...............
+06A0D5C0: B0 57 76 0C  24 DA A0 06  01 00 00 00  DC D9 A0 06  .Wv.$...........
+06A0D5D0: 00 00 00 00  F0 07 00 00  50 04 00 00  00 00 00 00  ........P.......
+06A0D5E0: 08 D6 A0 06  4D 00 FA 00  D0 7D DE 00  1C D6 A0 06  ....M....}......
+06A0D5F0: CE 0D 57 08  10 00 00 00  00 00 00 00  8C D7 A0 06  ..W.............
+06A0D600: 38 BE 90 01  00 00 00 00  C4 D6 A0 06  31 6B F7 00  8...........1k..
+06A0D610: A8 E5 CF 00  00 00 00 00  08 B2 DE 00  58 00 00 00  ............X...
+06A0D620: 00 40 00 00  00 00 00 00  88 B1 DE 00  5C 21 00 00  .@..........\!..
+06A0D630: 00 00 00 00  CE 0D 57 08  88 08 F9 00  CE 0D 57 08  ......W.......W.
+06A0D640: 00 00 00 00  00 40 00 00  00 00 00 00  08 B2 DE 00  .....@..........
+
+
+------------------------------------------------------------------------------
+Percent memory used:    66
+Total physical memory:  3404914688
+Free physical memory:   1139228672
+Page file:              6808031232
+Total virtual memory:   2147352576
+Free virtual memory:    1488527360
+------------------------------------------------------------------------------
+
+List of running WoW processes:
+
+Process: E:\ptr\World of Warcraft Beta\WoW.exe; pid: 2980
+
+======================================================================
+Hardware/Driver Information:
+Processor:              0x0
+Page Size:              4096
+Min App Address:        0x10000
+Max App Address:        0x7ffeffff
+Processor Mask:         0xff
+Number of Processors:   8
+Processor Type:         586
+Allocation Granularity: 65536
+Processor Level:        6
+Processor Revision:     10759
+Os Version:             6.1
+Os Service Pack:        1.0
