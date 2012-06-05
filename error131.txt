@@ -1,5 +1,3 @@
-±¨´íÄÚÈÝ
-
 World of WarCraft: Beta Build (build 15739)
 
 Exe:      E:\ptr\World of Warcraft Beta\WoW.exe
@@ -72,7 +70,7 @@ SET textureFilteringMode "4"
 SET terrainLodDist "550"
 SET wmoLodDist "550"
 SET componentTextureLevel "0"
-SET realmName "ç¥žçœŸå­?
+SET realmName "ç¥žçœŸï¿½ï¿½?
 
 ----------------------------------------
                GxInfo
